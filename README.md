@@ -53,3 +53,7 @@ A very simple music app built using React and Spotify API
 ## License
 
 MIT
+
+## Use as reference material
+
+Please use as a reference material
