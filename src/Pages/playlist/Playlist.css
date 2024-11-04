@@ -1,0 +1,37 @@
+.playlist-container::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+.playlist-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.playlist-container::-webkit-scrollbar-thumb {
+  background: gray;
+}
+.playlist-container {
+  background: rgb(50, 48, 40);
+  background: linear-gradient(
+    0deg,
+    rgba(50, 48, 40, 1) 0%,
+    rgba(18, 18, 18, 1) 100%
+  );
+}
+
+#playlist-head {
+  display: grid;
+  grid-template-columns: 0.3fr 3.1fr 2fr 0.5fr;
+}
+#playlist-body {
+  display: grid;
+  grid-template-columns: 0.3fr 3.1fr 2fr 0.5fr;
+}
+
+#album-head {
+  display: grid;
+  grid-template-columns: 0.4fr 4fr 0.5fr;
+}
+#album-body {
+  display: grid;
+  grid-template-columns: 0.4fr 4fr 0.5fr;
+}

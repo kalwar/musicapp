@@ -1,0 +1,6 @@
+#song-row::-webkit-scrollbar{
+    display: none;
+}
+#artist-row::-webkit-scrollbar{
+    display: none;
+}

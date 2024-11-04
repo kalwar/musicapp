@@ -1,0 +1,19 @@
+.bg-img {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #login-page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(8, 8, 8, 0.8576680672268908) 52%,
+      rgba(18, 18, 18, 0.19100140056022408) 100%
+    );
+  }
+  
