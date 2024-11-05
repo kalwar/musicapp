@@ -20,13 +20,13 @@ A very simple music app built using React and Spotify API
 1. **Clone the repository:**
 
    ```bash
-   git clone
+   git clone https://github.com/kalwar/musicapp.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd musicApp
+   cd musicapp
    ```
 
 3. **Install dependencies:**
@@ -43,6 +43,7 @@ A very simple music app built using React and Spotify API
 ## Technologies Used
 
 - React
+- Spotify API
 - Tailwind css
 - Vite
 
