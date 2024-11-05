@@ -2,6 +2,9 @@
 
 A very simple music app built using React and Spotify API
 
+![Banner](https://github.com/kalwar/musicapp/blob/main/banner.png)
+
+
 ## Features
 
 - **User Authentication:** Log in with your Spotify account to access personalized playlists
