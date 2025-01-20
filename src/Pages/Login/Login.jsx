@@ -15,10 +15,10 @@ const Login = () => {
       'user-read-recently-played',
       'user-top-read',
     ];
-    const REDIRECT_URI = 'http://localhost:5173/';
+    const REDIRECT_URI = 'https://main.d2usgbiilhnsje.amplifyapp.com/';
     window.location.href = `${api_uri}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&scope=${scope.join(
       ' '
-    )}&response_type=token&show_dialog=true`;
+    )}&response_type=token&show_dialog=false`;
   };
 
   return (
@@ -28,7 +28,8 @@ const Login = () => {
       </div>
       <div
         id="login-page"
-        className="flex flex-col items-center absolute top-0 left-0">
+        className="flex flex-col items-center absolute top-0 left-0"
+      >
         <h2 className="text-5xl text-white font-bold tracking-wide capitalize  text-center mt-20">
           MusicApp
         </h2>
@@ -36,7 +37,8 @@ const Login = () => {
         <div className="flex flex-col items-center justify-center mt-10">
           <button
             className="w-fit px-5 py-2 text-lg capitalize text-white bg-[#1ed760] rounded-full font-bold"
-            onClick={handleLogin}>
+            onClick={handleLogin}
+          >
             connect to spotify
           </button>
         </div>
